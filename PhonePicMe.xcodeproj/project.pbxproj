@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C36D8A91DADD69400146E6F /* Phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C36D8A91DADD69400146E6F /* PhonePicMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePicMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C36D8AC1DADD69400146E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C36D8AE1DADD69400146E6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C36D8B11DADD69400146E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C36D8B31DADD69400146E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C36D8B61DADD69400146E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C36D8B81DADD69400146E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C36D8BD1DADD69500146E6F /* PhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C36D8BD1DADD69500146E6F /* PhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PhoneTests.xctest; path = PhonePicMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C36D8C11DADD69500146E6F /* PhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTests.swift; sourceTree = "<group>"; };
 		5C36D8C31DADD69500146E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C36D8C81DADD69500146E6F /* PhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C36D8C81DADD69500146E6F /* PhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PhoneUITests.xctest; path = PhonePicMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C36D8CC1DADD69500146E6F /* PhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneUITests.swift; sourceTree = "<group>"; };
 		5C36D8CE1DADD69500146E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +87,7 @@
 		5C36D8AA1DADD69400146E6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C36D8A91DADD69400146E6F /* Phone.app */,
+				5C36D8A91DADD69400146E6F /* PhonePicMe.app */,
 				5C36D8BD1DADD69500146E6F /* PhoneTests.xctest */,
 				5C36D8C81DADD69500146E6F /* PhoneUITests.xctest */,
 			);
@@ -142,7 +142,7 @@
 			);
 			name = PhonePicMe;
 			productName = Phone;
-			productReference = 5C36D8A91DADD69400146E6F /* Phone.app */;
+			productReference = 5C36D8A91DADD69400146E6F /* PhonePicMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5C36D8BC1DADD69500146E6F /* PhonePicMeTests */ = {
@@ -419,7 +419,7 @@
 				INFOPLIST_FILE = Phone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sun.PhonePicMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.PhonePicUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,7 +435,7 @@
 				INFOPLIST_FILE = Phone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sun.PhonePicMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.PhonePicUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
